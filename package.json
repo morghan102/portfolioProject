@@ -1,0 +1,19 @@
+{
+  "name": "portfolioproject",
+  "version": "1.0.0",
+  "description": "Creating the coffee roasting site as the Nucamo portfolio project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morghan102/portfolioProject.git"
+  },
+  "author": "Morghan Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morghan102/portfolioProject/issues"
+  },
+  "homepage": "https://github.com/morghan102/portfolioProject#readme"
+}
