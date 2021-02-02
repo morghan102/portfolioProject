@@ -4,7 +4,9 @@
   "description": "Creating the coffee roasting site as the Nucamo portfolio project",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite server",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/morghan102/portfolioProject/issues"
   },
-  "homepage": "https://github.com/morghan102/portfolioProject#readme"
+  "homepage": "https://github.com/morghan102/portfolioProject#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
