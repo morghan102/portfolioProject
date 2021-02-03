@@ -11,3 +11,11 @@ a, a:hover {
 body {
     background-color: #CCC1AB;
 }
+.card {
+    background-color: black;
+}
+
+.card-caption {
+    background-color: rgba(0,0,0,.5); 
+    /* can i make that on hover? */
+}
