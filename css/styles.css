@@ -1,3 +1,9 @@
+.navbar {
+    background-color: rgb(255, 145, 0);
+    /* border: 3px solid orange; */
+}
+
+
 .site-footer {
     /* background-image: linear-gradient(#CEC8FF, white); */
     /* padding: 20px 0; */
@@ -18,4 +24,8 @@ body {
 .card-caption {
     background-color: rgba(0,0,0,.5); 
     /* can i make that on hover? */
+}
+
+.navbar img {
+    max-width:35%;
 }

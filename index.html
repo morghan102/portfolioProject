@@ -18,63 +18,66 @@
     <title>Other's! Roasting</title>
 </head>
 
+<body>
+    <!-- <header> -->
+        <!-- do i need the header? -->
 <!-- https://getbootstrap.com/docs/4.0/utilities/flex/ for the spacing stuff here, flexbox -->
-<nav class="navbar navbar-expand-sm sticky-top">
-    <div class="container">
-        <!-- this should be a logo -->
-        <a class="navbar-brand" href="#">Other's!<img src="" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <div class="container">
+                <!-- this should be a logo -->
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" class="img-fluid rounded pr-5"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="navbar navbar-collapse" id="nav">
-            <!-- might want mr-auto -->
-            <!-- center main group -->
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-            </ul>
-            <span class="navbar-text ml-auto">
-                <a role="button" data-toggle="modal" data-target="#loginModal">
-                    <i class="fa fa-sign-in"></i> Login
-                </a>
-            </span>
+                <div class="navbar navbar-collapse" id="nav">
+                    <!-- center main group -->
+                    <ul class="navbar-nav mx-auto pl-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text ml-auto mr-2">
+                        <a role="button" data-toggle="modal" data-target="#loginModal">
+                            <i class="fa fa-sign-in"></i> Login
+                        </a>
+                    </span>
+                    <div class="input-group w-25">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                          <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                    </div>
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </nav>
+    <!-- </header> -->
+
+    <div class="container">
+        <div class="text-center">
+            <h1 class="display-4">Other's! Roasting</h1>
+            <p class="lead">Text to introduce the business</p>
+            <hr class="my-4">
+            <p>More text can go here</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Browse our offerings</a>
+            </p>
         </div>
     </div>
-</nav>
-
-<body>
-    <header>
-        <div class="jumbotron">
-            <form class="form-inline my-2 my-lg-0">
-                <!-- i want a search icon in the search bar & i want this on the right-->
-                <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary my-2 my-sm-2" type="submit">Search</button>
-            </form>
-            <div class="text-center">
-                <h1 class="display-4">Other's! Roasting</h1>
-                <p class="lead">Text to introduce the business</p>
-                <hr class="my-4">
-                <p>More text can go here</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Browse our offerings</a>
-                </p>
-            </div>
-        </div>
-    </header>
-
     <!-- carousel of charitable work -->
     <!-- code for the login modal here -->
 
@@ -96,8 +99,8 @@
                 <div class="card-body card-img-overlay text-light d-flex">
                                     <!-- i need to get this centered :( -->
                     <div class="card-caption align-self-end mx-auto">
-                        <h5 class="card-title">Contact Us</h5>
-                        <p class="card-text">Need to get in touch? Go here.</p>
+                        <h5 class="card-title">Blog</h5>
+                        <p class="card-text">Learn about Fair-Trade & more!</p>
                         <a href="#" class="btn btn-primary">Go</a>
                     </div>
                 </div>
