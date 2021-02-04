@@ -1,4 +1,4 @@
-.navbar {
+.navbar, .site-footer {
     background-color: rgb(255, 145, 0);
     /* border: 3px solid orange; */
 }
