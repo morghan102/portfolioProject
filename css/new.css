@@ -1,0 +1,83 @@
+/* .top-container {
+    background-color: #aaaaaa;
+} */
+
+/* .site-footer {
+    background-color: rgb(255, 145, 0);
+} */
+
+body {
+    /* background-image:
+    linear-gradient(
+     #CCC1AB, rgb(255, 123, 0)
+    ); */
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar, .site-footer {
+    background-color: #CCC1AB;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-caption {
+    background-color: rgba(0,0,0,.5);
+    /* can i make that on hover? */
+}
+
+.navbar img {
+    max-width:35%;
+}
+
+.carousel {
+    box-shadow: 200px 50px #aaaaaa;
+}
+
+.btn {
+  background-color: tan;
+  color: brown;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+}
+.row:after {
+    content: 
+    display: table;
+    clear: both;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #64af3d;
+}
