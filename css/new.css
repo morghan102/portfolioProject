@@ -52,7 +52,7 @@ a, a:hover {
     position: relative;
 }
 .row:after {
-    content: 
+    content:
     display: table;
     clear: both;
 }
@@ -80,4 +80,7 @@ a, a:hover {
 }
 .cart-btn:hover {
   background-color: #64af3d;
+}
+span {
+    color: black;
 }
