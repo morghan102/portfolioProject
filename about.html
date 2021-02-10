@@ -14,23 +14,19 @@
 
     <!-- additional css -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/new.css" />
     <title>Others! Roasting</title>
 </head>
 
 <body>
-    <!-- <header> -->
-    <!-- do i need the header? -->
-    <!-- https://getbootstrap.com/docs/4.0/utilities/flex/ for the spacing stuff here, flexbox -->
-    <nav class="navbar navbar-expand-sm sticky-top">
-        <div class="container">
-            <!-- this should be a logo -->
-            <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" class="img-fluid rounded pr-5" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand ml-5" href="index.html"><img src="img/logo.jpg" class="img-fluid rounded " /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+<<<<<<< HEAD
             <div class="navbar navbar-collapse" id="nav">
                 <!-- center main group -->
                 <ul class="navbar-nav mx-auto pl-5">
@@ -62,15 +58,120 @@
                     </div>
                 </div>
                 <a class="nav-link" href="cart.html"><i class="fa fa-lg fa-shopping-cart"></i></a>
+=======
+        <div class="navbar collapse navbar-collapse" id="nav">
+            <!-- center main group -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="arabicainfo2.html">Products</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+            <a class="nav-link navbar-text" href="cart.html"><i class="fa fa-lg fa-shopping-cart"></i></a>
+            <div class="input-group w-25">
+                <input type="text" class="d-none d-lg-block form-control" placeholder="Search">
+                <div class="d-none d-lg-block input-group-append">
+                    <button class="btn btn-secondary" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+>>>>>>> c3bffbf07fc624feed583b1e5394888c180c5c74
             </div>
+            <span class="d-none d-lg-block navbar-text ml-2">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
+                </a>
+            </span>
         </div>
     </nav>
-    <!-- </header> -->
+
+<!-- about info -->
+<div class="container">
+    <div class="row row-content align-items-center">
+        <div class="col-12">
+            <h2>About Us</h2>
+            <hr />
+        </div>
+    </div>
+    <div class="row row-content align-items-center">
+        <div class="col">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <p>sweet lil image here</p>
+        </div>
+    </div>
+    <div class="row row-content align-items-center">
+        <div class="col-12">
+            <h2>Need to get in touch?</h2>
+            <p>Whether you want to leave us feedback or make a special request, or just want to chat, we're here for what you've got to say.</p>
+            <hr />
+        </div>
+        <div class="col">
+            <form>
+                <div class="form-group row">
+                    <label for="name" class="col-md-2 col-form-label">Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="name" placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="phone" class="col-md-2 col-form-label">Phone Num.</label>
+                    <div class="col-md-4">
+                        <input type="tel" id="phone" class="form-control" name="phone" placeholder="Phone Num.">
+                    </div>
+                    <label for="email" class="col-md-1 col-form-label ">Email</label>
+                    <div class="col-md-5">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="address" class="col-md-2 col-form-label">Address</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="address" placeholder="Address">
+                    </div>
+                </div>
+<!-- this needs to be aligned -->
+                <div class="form-group row text-right ml-5">
+                      <label for="inputCity" class="col-md-1 col-form-label">City</label>
+                      <div class="col-md-4">
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                      <label for="inputState" class="col-md-1 col-form-label">State</label>
+                      <div class="col-md-2">
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                      <label for="inputZip" class="col-md-1 col-form-label">Zip</label>
+                      <div class="col-md-2">
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                  </div>
 
 
-
-
-        <!-- everything isnt centered evenly -->
+                <div class="form-group row">
+                    <label for="textArea" class="col-md-2 col-form-label">What the fuck do you want?</label>
+                    <div class="col-md-10">
+                        <textarea name="textArea" class="form-control" id="textArea" rows="6"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        
+    
+    
+    <!-- contact form -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- everything isnt centered evenly -->
         <footer class="footer site-footer mt-5">
             <div class="container justify-content-center container-fluid">
                 <div class="row mt-3">
@@ -89,7 +190,11 @@
                         <h5>Sitemap</h5>
                         <ul class="list-unstyled">
                             <li><a href="index.html">Home</a></li>
+<<<<<<< HEAD
                             <li><a href="productinfo.html">Products</a></li>
+=======
+                            <li><a href="arabicainfo2.html">Products</a></li>
+>>>>>>> c3bffbf07fc624feed583b1e5394888c180c5c74
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
