@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <!-- the system is not happy about that link, along w another one -->
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <!-- the system is not happy about that link, along w another one -->
 
-    <!-- additional css -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/new.css" />
-    <title>Others! Roasting</title>
+  <!-- additional css -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/new.css" />
+  <title>Others! Roasting</title>
 </head>
 
 <body>
@@ -27,62 +27,94 @@
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <a class="navbar-brand ml-5" href="index.html"><img src="img/logo.jpg" class="img-fluid rounded " /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar collapse navbar-collapse" id="nav">
-        <!-- center main group -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home<span
-                        class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="productinfo.html"><i class="fa fa-tags" aria-hidden="true"></i> Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About Us</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="blog.html"><i class="fa fa-paper-plane" aria-hidden="true"></i>
-               Blog</a></li>
-        </ul>
-        <a class="nav-link navbar-text" href="#"><i class="fa fa-lg fa-shopping-cart"></i></a>
-        <!-- can this be made dark? -->
-        <div class="input-group w-25">
-            <input type="text" class="d-none d-lg-block form-control" placeholder="Search">
-            <div class="d-none d-lg-block input-group-append">
-                <button class="btn btn-secondary" type="button">
-                    <i class="fa fa-search"></i>
-                </button>
-            </div>
+      <!-- center main group -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home<span
+              class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="productinfo.html"><i class="fa fa-tags" aria-hidden="true"></i>
+            Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About Us</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="blog.html"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+            Blog</a></li>
+      </ul>
+      <a class="nav-link navbar-text" href="#"><i class="fa fa-lg fa-shopping-cart"></i></a>
+      <!-- can this be made dark? -->
+      <div class="input-group w-25">
+        <input type="text" class="d-none d-lg-block form-control" placeholder="Search">
+        <div class="d-none d-lg-block input-group-append">
+          <button class="btn btn-secondary" type="button">
+            <i class="fa fa-search"></i>
+          </button>
         </div>
-        <span class="d-none d-lg-block navbar-text ml-2">
-            <a role="button" data-toggle="modal" data-target="#loginModal">
-                <i class="fa fa-sign-in"></i> Login
-            </a>
-        </span>
-    </div>
-</nav>
-
-
-<!-- this isnt flush to the bottom because there isnt enough content to fill a full screen -->
-<footer class="footer site-footer mt-5">
-  <div class="container justify-content-center container-fluid">
-    <div class="row mt-3">
-      <div class="col-md-6 mt-3 text-center">
-        <h5>Socials</h5>
-        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
-        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
-        <a class="btn btn-social-icon btn-google" href="http://youtube.com"><i class="fa fa-youtube"></i></a>
-        <hr class="d-md-none"/>
       </div>
+      <span class="d-none d-lg-block navbar-text ml-2">
+        <a role="button" data-toggle="modal" data-target="#loginModal">
+          <i class="fa fa-sign-in"></i> Login
+        </a>
+      </span>
+    </div>
+  </nav>
 
-      <div class="col-md-6 mt-md-3 mb-5 text-center">
-        <a role="button" class="btn btn-link" href="tel:+12061111111"><i class="fa fa-phone"></i>
-          1-206-111-1111</a><br>
-        <a role="button" class="btn btn-link" href="mailto:email@gmail.com"><i class="fa fa-envelope-o"></i>
-          email@gmail.com</a>
+  <!-- modal -->
+  <div class="modal fade" id="loginModal" role="dialog" aria-labeledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="modalLabel">Login</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="loginEmail" class="col-form-label">Email</label>
+              <input type="text" class="form-control" id="loginEmail">
+            </div>
+            <div class="form-group">
+              <label for="loginPw" class="col-form-label">Password</label>
+              <input type="text" class="form-control" id="loginPw">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Go</button>
+        </div>
       </div>
     </div>
   </div>
-</footer>
+
+
+
+  <!-- this isnt flush to the bottom because there isnt enough content to fill a full screen -->
+  <footer class="footer site-footer mt-5">
+    <div class="container justify-content-center container-fluid">
+      <div class="row mt-3">
+        <div class="col-md-6 mt-3 text-center">
+          <h5>Socials</h5>
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+          <a class="btn btn-social-icon btn-google" href="http://youtube.com"><i class="fa fa-youtube"></i></a>
+          <hr class="d-md-none" />
+        </div>
+
+        <div class="col-md-6 mt-md-3 mb-5 text-center">
+          <a role="button" class="btn btn-link" href="tel:+12061111111"><i class="fa fa-phone"></i>
+            1-206-111-1111</a><br>
+          <a role="button" class="btn btn-link" href="mailto:email@gmail.com"><i class="fa fa-envelope-o"></i>
+            email@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -29,10 +29,14 @@
         <div class="navbar collapse navbar-collapse" id="nav">
             <!-- center main group -->
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="productinfo.html"><i class="fa fa-tags" aria-hidden="true"></i> Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About Us</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i> Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="productinfo.html"><i class="fa fa-tags"
+                            aria-hidden="true"></i> Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About Us</a>
+                </li>
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-paper-plane"
+                            aria-hidden="true"></i> Blog</a></li>
             </ul>
             <a class="nav-link navbar-text" href="cart.html"><i class="fa fa-lg fa-shopping-cart"></i></a>
             <div class="input-group w-25">
@@ -51,30 +55,65 @@
         </div>
     </nav>
 
+    <!-- modal -->
+    <div class="modal fade" id="loginModal" role="dialog" aria-labeledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalLabel">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="loginEmail" class="col-form-label">Email</label>
+                            <input type="text" class="form-control" id="loginEmail">
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPw" class="col-form-label">Password</label>
+                            <input type="text" class="form-control" id="loginPw">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Go</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <footer class="footer site-footer mt-5">
         <div class="container justify-content-center container-fluid">
-          <div class="row mt-3">
-            <div class="col-md-6 mt-3 text-center">
-              <h5>Socials</h5>
-              <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-              <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
-              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
-              <a class="btn btn-social-icon btn-google" href="http://youtube.com"><i class="fa fa-youtube"></i></a>
-              <hr class="d-md-none"/>
+            <div class="row mt-3">
+                <div class="col-md-6 mt-3 text-center">
+                    <h5>Socials</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com"><i
+                            class="fa fa-youtube"></i></a>
+                    <hr class="d-md-none" />
+                </div>
+
+                <div class="col-md-6 mt-md-3 mb-5 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12061111111"><i class="fa fa-phone"></i>
+                        1-206-111-1111</a><br>
+                    <a role="button" class="btn btn-link" href="mailto:email@gmail.com"><i class="fa fa-envelope-o"></i>
+                        email@gmail.com</a>
+                </div>
             </div>
-    
-            <div class="col-md-6 mt-md-3 mb-5 text-center">
-              <a role="button" class="btn btn-link" href="tel:+12061111111"><i class="fa fa-phone"></i>
-                1-206-111-1111</a><br>
-              <a role="button" class="btn btn-link" href="mailto:email@gmail.com"><i class="fa fa-envelope-o"></i>
-                email@gmail.com</a>
-            </div>
-          </div>
         </div>
-      </footer>
-    
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -87,6 +126,3 @@
 
 
 </body>
-
-
-
