@@ -79,7 +79,7 @@ a, a:hover {
   background-color: #64af3d;
 }
 
-span {
+.price {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
 }
@@ -102,6 +102,6 @@ p {
   color: brown;
 }
 
+
 .change {
-  /* height: 1152px; */
-}
+  /*
