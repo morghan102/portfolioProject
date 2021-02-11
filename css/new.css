@@ -101,11 +101,9 @@ p {
   background-color: tan;
   color: brown;
 }
-<<<<<<< HEAD
-=======
 
 .banner {
-  background-image: url("/img/coffeeSpillWide.jpg"); 
+  background-image: url("/img/coffeeSpillWide.jpg");
   width: 100%;
   /* height:300px; */
   background-repeat: no-repeat;
@@ -124,4 +122,3 @@ p {
   margin-bottom: 5em;
   margin-left: 25%;
 }
->>>>>>> 7abdda0d34c74fb4db53a3b02200d94027887c1b
