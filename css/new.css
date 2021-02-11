@@ -35,8 +35,8 @@ a, a:hover {
 }
 
 .carousel-inner {
-  overflow: hidden;
-  height: 21.5rem;
+  /* overflow: hidden; */
+  /* height: 21.5rem; */
 }
 
 
@@ -135,7 +135,20 @@ p {
   background-color: tan;
 }
 
-.abtImg {
+
+/* this doesnt work upon resizing page */
+/* .abtImg {
   overflow: hidden;
-  height: 23rem;
+  height: 23.5rem;
+  position: relative;
 }
+/* i want to center the center image*/
+
+/*.abtImg .centerImg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} */
