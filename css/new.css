@@ -22,13 +22,12 @@ a, a:hover {
     background-color: #CCC1AB;
 }
 
-.card {
+.info-card {
     background-color: black;
 }
 
 .card-caption {
     background-color: rgba(0,0,0,.5);
-    /* can i make that on hover? */
 }
 
 .navbar img {
@@ -100,4 +99,25 @@ p {
 .cartButton {
   background-color: tan;
   color: brown;
+}
+
+.banner {
+  background-image: url("/img/coffeeSpillWide.jpg"); 
+  width: 100%;
+  /* height:300px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bg-image .shade {
+  text-shadow:2px 2px #333;
+  /* add a text shadw box */
+}
+.text {
+  background-color: rgba(0,0,0,.39);
+  max-width: 50%;
+  margin-bottom: 5em;
+  margin-left: 25%;
 }
