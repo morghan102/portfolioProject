@@ -121,3 +121,7 @@ p {
   margin-bottom: 5em;
   margin-left: 25%;
 }
+
+.card-header {
+  background-color: tan;
+}
