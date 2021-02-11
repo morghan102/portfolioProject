@@ -87,6 +87,7 @@ p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .img {
   display: block;
   width: auto;
@@ -96,13 +97,20 @@ p {
   margin: 20px auto;
 }
 
+.modalImage {
+  border-style: inset;
+  border-radius: 15%;
+  height: 100%;
+}
+
+
 .cartButton {
   background-color: tan;
   color: brown;
 }
 
 .banner {
-  background-image: url("/img/coffeeSpillWide.jpg"); 
+  background-image: url("/img/coffeeSpillWide.jpg");
   width: 100%;
   /* height:300px; */
   background-repeat: no-repeat;
