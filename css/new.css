@@ -97,6 +97,13 @@ p {
   margin: 20px auto;
 }
 
+.modalImage {
+  border-style: inset;
+  border-radius: 15%;
+  height: 100%;
+}
+
+
 .cartButton {
   background-color: tan;
   color: brown;
