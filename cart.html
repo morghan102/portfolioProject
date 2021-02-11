@@ -89,9 +89,30 @@
         </div>
       </div>
     </div>
+   </div>
+<div class="text-center">
+   <div class="mt-5">
+    <form name="ShoppingList">
+      <fieldset>
+        <label>Item: <input type="text" name="name"></label>
+        <label>Quantity: <input type="text" name="data"></label>
+
+        <input type="button" value="Save" onclick="SaveItem()">
+        <input type="button" value="Update" onclick="ModifyItem()">
+        <input type="button" value="Delete" onclick="RemoveItem()">
+      </fieldset>
+      <div id="items_table">
+        <table id="list"></table>
+        <label><input type="button" value="Clear" onclick="ClearAll()">
+          * Delete all items</label>
+      </div>
+    </form>
   </div>
+</div>
 
-
+  <div class="text-center">
+      <button type="button" class="btn btn-success btn-lg text-uppercase mt-5">Let's go shopping!</button>
+  </div>
 
   <!-- this isnt flush to the bottom because there isnt enough content to fill a full screen -->
   <footer class="footer site-footer mt-5">
