@@ -152,3 +152,7 @@ p {
   right: 0;
   margin: auto;
 } */
+
+#resize {
+  /* specify height & width, no way around it rem */
+}
