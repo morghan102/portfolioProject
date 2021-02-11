@@ -34,8 +34,9 @@ a, a:hover {
     max-width:35%;
 }
 
-.carousel {
-    /* box-shadow: 200px 50px #aaaaaa; */
+.carousel-inner {
+  overflow: hidden;
+  height: 21.5rem;
 }
 
 
@@ -132,4 +133,9 @@ p {
 
 .card-header {
   background-color: tan;
+}
+
+.abtImg {
+  overflow: hidden;
+  height: 23rem;
 }
