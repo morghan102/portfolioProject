@@ -161,3 +161,8 @@ p {
 #centerCardImg {
   height: 100%;
 }
+
+#tooBigImg {
+  height: 28.7rem;
+  width: 100%;
+}
