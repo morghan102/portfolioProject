@@ -95,7 +95,36 @@
   <div class="container text-center">
     <div class="row mt-5">
       <div class="col">
-        <form name="ShoppingList">
+        <table class="table">
+          <!-- thead light not working -->
+          <thead class="thead-light">
+            <th scope="col">img</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Item</th>
+            <th scope="col">Price</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="img/arabica.jpg" class="img-fluid cartImg" alt=""></td>
+              <th scope="row">1</th>
+              <td>Arabica; Full City roast</td>
+              <td>$11.99</td>
+            </tr>
+            <tr>
+              <td><img src="img/Colombian.jpeg" class="img-fluid cartImg" alt=""></td>
+              <th scope="row">1</th>
+              <td>Colombian; Medium roast</td>
+              <td>$15.99</td>
+            </tr>
+            <tr>
+              <td><img src="img/Guatemalan 2.jpg" class="img-fluid cartImg" alt=""></td>
+              <th scope="row">1</th>
+              <td>Guatemalan; Light roast</td>
+              <td>$10.99</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <form name="ShoppingList">
           <fieldset>
             <label>Item: <input type="text" name="name"></label>
             <label>Quantity: <input type="text" name="data"></label>
@@ -109,7 +138,7 @@
             <label><input type="button" value="Clear" onclick="ClearAll()">
               * Delete all items</label>
           </div>
-        </form>
+        </form> -->
       </div>
     </div>
     <div class="row text-center">
