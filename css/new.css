@@ -48,7 +48,7 @@ a, a:hover {
     position: relative;
 }
 .row:after {
-    content:
+    content: ;
     display: table;
     clear: both;
 }
@@ -99,9 +99,10 @@ p {
 }
 
 .modalImage {
+
   border-style: inset;
   border-radius: 15%;
-  height: 100%;
+  width: 100%;
 }
 
 
@@ -155,14 +156,21 @@ p {
 
 #finalImgCarousel {
   /* specify height & width, no way around it rem */
+<<<<<<< HEAD
+}
+=======
   height: 25.65rem;
   width: 100%;
 }
 #centerCardImg {
   height: 100%;
 }
+<<<<<<< HEAD
 
 #tooBigImg {
   height: 28.7rem;
   width: 100%;
 }
+=======
+>>>>>>> 6debb3b3e78f9200f9e3068ce9cf1b7ca7d4ba89
+>>>>>>> 7bb9fcb327f032a1df9a2e802e37568e71a4abe7
