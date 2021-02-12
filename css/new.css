@@ -153,6 +153,11 @@ p {
   margin: auto;
 } */
 
-#resize {
+#finalImgCarousel {
   /* specify height & width, no way around it rem */
+  height: 25.65rem;
+  width: 100%;
+}
+#centerCardImg {
+  height: 100%;
 }
