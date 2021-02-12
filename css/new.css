@@ -48,7 +48,7 @@ a, a:hover {
     position: relative;
 }
 .row:after {
-    content:
+    content: ;
     display: table;
     clear: both;
 }
@@ -100,8 +100,8 @@ p {
 
 .modalImage {
 
-  /* border-style: inset;
-  border-radius: 15%; */
+  border-style: inset;
+  border-radius: 15%;
   width: 100%;
 }
 
