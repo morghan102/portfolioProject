@@ -48,6 +48,9 @@ a, a:hover {
   color: #43474D;
   margin-right: 20px;
 }
+.imageAlign {
+  padding-bottom: 8%
+}
 
 .cart-btn {
   display: inline-block;
