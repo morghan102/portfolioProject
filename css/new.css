@@ -52,7 +52,7 @@ a, a:hover {
     position: relative;
 }
 .row:after {
-    content: ;
+    /* content: ; */
     display: table;
     clear: both;
 }
@@ -159,8 +159,6 @@ p {
 } */
 
 #finalImgCarousel {
-  /* specify height & width, no way around it rem */
-
   height: 25.65rem;
   width: 100%;
 }
@@ -174,13 +172,9 @@ p {
 }
 
 .cartImg {
-  width: 10rem;
+  width: 6.9rem;
 }
 
 .fa-arrow-right, .fa-arrow-left {
   color: black;
-}
-
-#abort {
-  flex-direction: column;
 }
